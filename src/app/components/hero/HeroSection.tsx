@@ -1,6 +1,7 @@
+import React from "react";
 import Image from "next/image";
 import { FcGraduationCap } from "react-icons/fc";
-import React from "react";
+import { RoughNotation } from "react-rough-notation";
 
 const HeroSection = () => {
   return (
@@ -16,7 +17,11 @@ const HeroSection = () => {
           Getting Best <br />
           Quality education <br />
           Is Now More
-          <span className="text-4xl md:text-5xl ml-3 rough">Easier</span>
+          <span className="text-4xl md:text-5xl ml-3 rough">
+            <RoughNotation type="underline" show={true}>
+              Easier
+            </RoughNotation>
+          </span>
         </h1>
 
         <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisi</p>
