@@ -26,7 +26,7 @@ const Navbar = () => {
           ></p>
           <p
             className={`w-8 h-[2px] bg-black mb-1 transition-all duration-300 ${
-              toggleNav ? "-rotate-45 -mb-0" : ""
+              toggleNav ? "-rotate-45 -mb-1" : ""
             }`}
           ></p>
           <p
