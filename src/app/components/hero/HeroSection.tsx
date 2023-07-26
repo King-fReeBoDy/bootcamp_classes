@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { RoughNotation } from "react-rough-notation";
 import { FcGraduationCap } from "react-icons/fc";
 import React from "react";
 
