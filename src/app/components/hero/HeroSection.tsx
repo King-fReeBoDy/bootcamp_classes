@@ -16,12 +16,7 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-5xl font-bold my-5 text-black">
           Getting Best <br />
           Quality education <br />
-          Is Now More
-          <span className="text-4xl md:text-5xl ml-3 rough">
-            <RoughNotation type="underline" show={true}>
-              Easier
-            </RoughNotation>
-          </span>
+          Is Now More Easier
         </h1>
 
         <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisi</p>
