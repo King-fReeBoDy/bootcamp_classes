@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import { FcGraduationCap } from "react-icons/fc";
-import { RoughNotation } from "react-rough-notation";
 
 const HeroSection = () => {
   return (
