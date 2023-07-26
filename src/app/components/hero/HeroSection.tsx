@@ -17,9 +17,7 @@ const HeroSection = () => {
           Getting Best <br />
           Quality education <br />
           Is Now More
-          <RoughNotation type="underline" show={true} color="red">
-            <span className="text-4xl md:text-5xl ml-3 rough">Easier</span>
-          </RoughNotation>
+          <span className="text-4xl md:text-5xl ml-3 rough">Easier</span>
         </h1>
 
         <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisi</p>
