@@ -18,7 +18,10 @@ const HeroSection = () => {
           Is Now More Easier
         </h1>
 
-        <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisi</p>
+        <p className="mb-5 border-l-4 border-red-500 pl-3">
+          pre-SHS stem vacation school <br />
+          prism brook learning centre (PBLC)
+        </p>
 
         <a
           href="/assets/Bootcamp_Application_Letter_123036.pdf"

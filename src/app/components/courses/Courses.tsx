@@ -12,7 +12,7 @@ const Courses = () => {
           Browse course by category
         </h3>
         <p className="text-xs text-gray-500 text-center">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit
+          Our top courses recommended for you
         </p>
 
         <div className="flex flex-col lg:flex-row justify-between my-10 gap-5">

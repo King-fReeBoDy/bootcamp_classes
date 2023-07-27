@@ -97,7 +97,7 @@ const About = () => {
           </ul>
         </section>
       </div>
-      <p onClick={() => setPath(2)} className="text-center my-10">
+      <p onClick={() => setPath(2)} className="text-center py-10">
         <Link
           href="/courses"
           className="bg-red-100 text-red-500 px-5 py-2 rounded-full"

@@ -17,8 +17,8 @@ const Footer = () => {
             />
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-              eveniet laboriosam sunt molestiae!
+              pre-SHS stem vacation school <br />
+              prism brook learning centre (PBLC)
             </p>
           </div>
         </section>

@@ -15,3 +15,7 @@ h3,
 .rough {
   font-family: "Kumbh sans";
 }
+
+.no-scroll {
+  overflow: hidden;
+}

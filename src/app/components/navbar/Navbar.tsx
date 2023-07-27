@@ -3,13 +3,21 @@ import { navigation } from "@/app/context/NavigationContext";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, useEffect } from "react";
 
 const links = ["Home", "About", "Courses", "Contact"];
 
 const Navbar = () => {
   const { path, setPath } = useContext(navigation);
   const [toggleNav, setToggleNav] = useState(false);
+
+  useEffect(() => {
+    const el = document.querySelector("html") as HTMLElement;
+
+    toggleNav
+      ? el.classList.add("no-scroll")
+      : el.classList.remove("no-scroll");
+  }, [toggleNav]);
 
   return (
     <>
@@ -25,12 +33,12 @@ const Navbar = () => {
             }`}
           ></p>
           <p
-            className={`w-8 h-[2px] bg-black mb-1 transition-all duration-300 ${
-              toggleNav ? "-rotate-45 -mb-3" : ""
+            className={`w-6 h-[2px] bg-black mb-1 transition-all duration-300 ${
+              toggleNav ? "-rotate-45 -mb-[4px]" : ""
             }`}
           ></p>
           <p
-            className={`w-8 h-[2px] bg-black transition-all duration-300 ${
+            className={`w-6 h-[2px] bg-black transition-all duration-300 ${
               toggleNav ? "rotate-45" : ""
             }`}
           ></p>
