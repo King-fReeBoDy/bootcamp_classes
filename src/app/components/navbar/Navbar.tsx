@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="flex p-5 justify-between items-center w-[90%] mx-auto">
-        <Link href="/">
+        <Link href="/" onClick={() => setPath(0)}>
           <Image src="/assets/IMG_1924.PNG" alt="Logo" width={40} height={40} />
         </Link>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
           ></p>
           <p
             className={`w-6 h-[2px] bg-black mb-1 transition-all duration-300 ${
-              toggleNav ? "-rotate-45 -mb-[4px]" : ""
+              toggleNav ? "-rotate-45" : ""
             }`}
           ></p>
           <p
